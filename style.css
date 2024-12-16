@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #e0e0e0;
+    background-color: #1c1c1c;
+  }
+
+  .tekstvak {
+    width: 90%;
+    max-width: 75em;
+    margin: 0 auto;
+  }
+
+
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1.25em;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    font-size: 2.5em;
+    color: #d20000;
+  }
+  
+  header p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0.625em 0 0;
+  }
+
+  header img {
+width: 9.3em;
+height: auto;
+position: absolute;
+top: 0em;
+left: 0em;
+  }
+  
+  nav {
+    background: #444;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.9em 1.25em;
+    display: block;
+  }
+  
+  nav ul li a:hover {
+    background: #555;
+  }
+
+  nav ul li a:active {
+    background: #363636;
+  }
+
+  section {
+    margin: 2.5em 0;
+    padding: 1.25em;
+    background: #2b2b2b;
+    border: 0.0625em solid #444;
+    border-radius: 0.3125em;
+  }
+  
+  main h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2.5em;
+    font-size: 2em;
+    color: #d20000;
+    text-align: center;
+  }
+
+
+  .tekstvak p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 0 0.9em;
+    font-size: 1.1em;
+  }
+  
+  .afleveringen {
+    background: #2b2b2b;
+    padding: 1.25em;
+    margin: 1.25em 0;
+    border: 0.0625em solid #444;
+    border-radius: 5px;
+  }
+  
+  .afleveringen h3 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 0 0.0375em;
+    font-size: 1.4em;
+    color: #d20000;
+  }
+  
+  .afleveringen p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 0.9em;
+    text-align: left;
+  }
+
+  .afleveringen img {
+    width: 9.3em;
+    float: right;
+    margin-top: -2.5em;
+    margin-right: 0em;
+  }
+  
+  .afleveringen .box {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    background: #d20000;
+    color: #fff;
+    padding: 0.625em 1.25em;
+    text-decoration: none;
+    border-radius: 0.3125em;
+    margin-top: 0.9375em;
+    margin-bottom: 0.625em
+  }
+  
+  .afleveringen .box:hover {
+    background: #9b0000;
+  }
+  
+  .afleveringen .box:active{
+    background: #5c0000;
+  }
+
+  .linkonder a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 0 0.625em;
+    font-size: 1.2em;
+    color: #b1b1b1;
+    margin-left: 1.25em;
+  }
+
+  .linkonder a:hover{
+    color: #8e8e8e;
+  }
+
+  .linkonder a:active{
+    color: #575656;
+  }
+
+  
+  form label {
+    display: block;
+    margin: 0.625em 0 0.3125em;
+  }
+  
+  form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 0.625em 0 1.25em;
+    border: 1px solid #555;
+    border-radius: 0.3125em;
+    background: #1c1c1c;
+    color: #e0e0e0;
+  }
+  
+  form button {
+    background: #d20000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #9b0000;
+  }
+  
+  form button:active {
+    background: #5c0000;
+  }
+
+  footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.625em;
+    margin-top: 2.5em;
+  }
+
